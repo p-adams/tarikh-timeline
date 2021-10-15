@@ -2,6 +2,7 @@
   "name": "tarikh-timeline",
   "version": "0.0.0",
   "type": "module",
+  "description": "timeline component",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
