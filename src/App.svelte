@@ -1,7 +1,11 @@
 <script lang="ts">
+  import Timeline from "./lib/Timeline.svelte";
+  const timelineData = [];
 </script>
 
-<main />
+<main>
+  <Timeline direction="horizontal" />
+</main>
 
 <style>
   :root {
