@@ -12,12 +12,17 @@
 
 <ol class={`timeline ${direction}`}>
   {#each data as point}
-    <li>
-      <div>
-        <span>{point.year.toDateString()}</span>
-        <h3>{point.title}</h3>
-        <p>{point.description}</p>
-      </div>
+    <li class="item">
+      <span>{point.year.toDateString()}</span>
+      <h3 class="title">{point.title}</h3>
+      <p class="description">{point.description}</p>
     </li>
   {/each}
 </ol>
+
+<style>
+  .timeline.horizontal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+</style>
