@@ -5,6 +5,7 @@
 
 <main>
   <Timeline direction="horizontal" />
+  <Timeline direction="vertical" />
 </main>
 
 <style>
